@@ -4,12 +4,12 @@ const app = express();
 
 // Route "/" - Trang chủ
 app.get("/", (req, res) => {
-  res.send("Welcome to Hello World API! Try /api/hello");
+  res.send("Welcome to Nhóm R5 kiểm thử API Node.js!");
 });
 
 // Route "/api/hello"
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello World from Node.js REST API!" });
+  res.json({ message: "Nhóm R5 kiểm thử API Node.js!" });
 });
 
 // Export handler cho Vercel
